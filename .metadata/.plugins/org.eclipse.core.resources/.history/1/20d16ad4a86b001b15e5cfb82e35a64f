@@ -1,0 +1,17 @@
+package br.com.academia.model;
+
+import br.com.academia.model.Pessoa;
+
+public class NivelDeAtividade {
+
+	public static NivelDeAtividade LEVE;
+	public static NivelDeAtividade MODERADO;
+	public static NivelDeAtividade INTENSO;
+	
+	
+
+
+	
+	
+	
+}

@@ -1,0 +1,83 @@
+package br.com.academia;
+
+import java.time.LocalDate;
+
+
+import br.com.academia.model.Pessoa;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		// PESSOA 1
+		
+		Pessoa alice =new Pessoa();
+		alice.setNome("Alice");
+//		alice.setSexo('F');
+		alice.setPeso(70);
+		alice.setAltura(1.73);
+		alice.setDataNascimento(LocalDate.of(2004, 10, 21));
+		System.out.println("Nome: "+alice.getNome());
+		System.out.println("Idade: " + alice.getIdade());
+		System.out.println("Imc: "+ alice.getImc());
+		System.out.println("Status: "+ alice.getStatusImc());
+//		ana.setNivelDeAtividade(NivelDeAtividade.MODERADO);
+		System.out.println("******************");
+		System.out.println("                  ");
+		
+		
+		// PESSOA 2 
+		
+		Pessoa gustavo =new Pessoa();
+		gustavo.setNome("Gustavo");
+//		ana.setSexo('M');
+		gustavo.setPeso(50);
+		gustavo.setAltura(1.90);
+		gustavo.setDataNascimento(LocalDate.of(2000, 3, 26));
+		System.out.println("Nome: "+gustavo.getNome());
+		System.out.println("Idade: " + gustavo.getIdade());
+		System.out.println("Imc: "+ gustavo.getImc());
+		System.out.println("Status: "+ gustavo.getStatusImc());
+//		ana.setNivelDeAtividade(NivelDeAtividade.MODERADO);
+		System.out.println("******************");
+		System.out.println("                  ");
+		
+		// PESSOA 3 
+		
+		Pessoa maria =new Pessoa();
+		maria.setNome("Maria");
+	//	ana.setSexo('F');
+		maria.setPeso(69);
+		maria.setAltura(1.50);
+		maria.setDataNascimento(LocalDate.of(1970, 7, 17));
+		System.out.println("Nome: "+maria.getNome());
+		System.out.println("Idade: " + maria.getIdade());
+		System.out.println("Imc: "+ maria.getImc());
+		System.out.println("Status: "+ maria.getStatusImc());
+	//	ana.setNivelDeAtividade(NivelDeAtividade.MODERADO);
+		System.out.println("******************");
+		System.out.println("                  ");
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}
